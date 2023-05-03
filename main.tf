@@ -1,10 +1,10 @@
 provider "aws" {
-region = "us-east-1"
-access_key = "AKIAUOPOPAVLP7W6ITGX"
-secret_key = "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"
+region = "ap-south-1"
+access_key = "AKIASDLFJNTXAZWB6LUC"
+secret_key = "mXXCEDkGPw9d4jcQDGF87QqdVpHzwrzf/L7ODO9o"
 }
 resource "aws_s3_bucket" "example" {
-bucket = "vcube901439878"
+bucket = "my1stbucket"
 tags   = {
 Name = "dev"
 }
