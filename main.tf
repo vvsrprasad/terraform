@@ -4,7 +4,7 @@ access_key = "AKIASDLFJNTXAZWB6LUC"
 secret_key = "mXXCEDkGPw9d4jcQDGF87QqdVpHzwrzf/L7ODO9o"
 }
 resource "aws_s3_bucket" "example" {
-bucket = "rjbucket"
+bucket = "rjbucket1"
 tags   = {
 Name = "dev"
 }
