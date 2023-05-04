@@ -1,11 +1,17 @@
 provider "aws" {
 region = "ap-south-1"
-access_key = "AKIASDLFJNTXMM2VYJM6"
-secret_key = "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"
+access_key = "AKIASDLFJNTXC746LYQO"
+secret_key = "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"
 }
 resource "aws_s3_bucket" "latest" {
-bucket = "rjbucket678"
+bucket = "rjbucket111"
 tags   = {
 Name = "dev"
 }
+}
+resource "aws_s3_bucket_object" "object" {
+bucket = "rjbucket111"
+key    = "RjS3"
+acl    = "private"  
+source = "C:\\Users\\DELL\\Desktop\\RjS3.txt"  
 }
