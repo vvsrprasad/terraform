@@ -11,7 +11,7 @@ Name = "dev"
 }
 resource "aws_s3_bucket_object" "object" {
 bucket = "rjbucket111"
-key    = "RjS3"
+key    = "R15"
 acl    = "private"  
-source = "C:\\Users\\DELL\\Desktop\\RjS3.txt"  
+source = "E:\\R15.docx"  
 }
