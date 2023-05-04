@@ -1,10 +1,10 @@
 provider "aws" {
 region = "ap-south-1"
-access_key = "AKIASDLFJNTXJRS2O55X"
-secret_key = "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"
+access_key = "AKIASDLFJNTXOMIODZLH"
+secret_key = "vbWHjHW90GYzo2qUzdoxTKyVTrRVouD4HxSuXQQs"
 }
-resource "aws_s3_bucket" "example" {
-bucket = "rj-bucket1"
+resource "aws_s3_bucket" "latest" {
+bucket = "rjbucket40"
 tags   = {
 Name = "dev"
 }
